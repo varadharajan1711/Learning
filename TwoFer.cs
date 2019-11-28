@@ -11,7 +11,7 @@
 		#region Publics
 		public string Operation(string strInput)
 		{
-			if(strInput == "")
+			if(strInput != "")
 			{
 				return "One for " + strInput + ", one for me.";
 			}
